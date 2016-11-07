@@ -6,15 +6,18 @@
 </head>
 <body>
 	<form>
-	<div>
-      <label>UserName:</label> <input type='text' placeholder="name" /> <br>
-      <label>Email:</label><input type="email" name="email" placeholder="example@gmail.com" /><br>
-      <label>Password:</label> <input type='password' /> <br> 
-	  <label>Repeat Password</label><input type="password" name="re-pass"><br>
-	  <label>Telephone number</label><input type="tel" name="tel"><br>
-	  <label>Country</label><input type="text" name="country"><br><br>
-	</div>
-      <button id="submit" type="submit">Login</button> 
-</form>
+		<div>
+	      <label>First Name:</label> <input type='text' placeholder="first name" id="first-name" /> <br>
+	      <label>Last Name:</label> <input type='text' placeholder="last name" id="last-name" /> <br>
+	      <label>Email:</label><input type="email" id="email" placeholder="example@gmail.com" /><br>
+	      <label>Password:</label> <input type='password' id="pass" value="" /> <br> 
+		  <label>Repeat Password</label><input type="password" id="re-pass" value=""><br>
+		  <label>Telephone number</label><input type="tel" id="tel"><br>
+		  <label>Country</label><input type="text" id="country"><br><br>
+		</div><br>
+	    <button id="submit" type="button">Login</button> 
+	    <div id="msg"></div>
+	</form>
+	<script src="jsDom.js"></script>
 </body>
 </html>
